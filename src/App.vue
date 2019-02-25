@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1 class="text-center">Random Ball Game</h1>
     <game :player="player" v-on:score="updateScore"/>
     <player v-on:player="updatePlayer" class="text-center"/>
     <score :score="score" :player="player" class="text-center"/>
